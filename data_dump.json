@@ -1,0 +1,231 @@
+{
+  "company": {
+    "name": "Bhavanam's Consultancy 2 Constructions Pvt. Ltd.",
+    "short_name": "Bhavanam's C2C",
+    "founded": 2020,
+    "active": true,
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "pincode": "500032"
+    },
+    "contact": {
+      "email": "info@bhavanamsc2c.com",
+      "phone": "+91-9000000000",
+      "website": "https://bhavanamsc2c.com"
+    },
+    "platforms": [
+      "Code2AI Career",
+      "AEC Career Hub",
+      "Bhavanam's App"
+    ]
+  },
+
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "Ravi Kumar",
+      "role": "Software Developer Intern",
+      "department": "Engineering",
+      "joining_date": "2024-01-10",
+      "active": true,
+      "skills": ["Flutter", "Dart", "Firebase"],
+      "salary": {
+        "basic": 12000,
+        "allowances": 3000,
+        "currency": "INR"
+      }
+    },
+    {
+      "id": "EMP002",
+      "name": "Priya Sharma",
+      "role": "Graphic Designer Intern",
+      "department": "Design",
+      "joining_date": "2024-02-15",
+      "active": true,
+      "skills": ["Figma", "Illustrator", "Canva"],
+      "salary": {
+        "basic": 10000,
+        "allowances": 2000,
+        "currency": "INR"
+      }
+    },
+    {
+      "id": "EMP003",
+      "name": "Arjun Mehta",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "joining_date": "2024-03-01",
+      "active": false,
+      "skills": ["Lead Generation", "CRM", "Cold Calling"],
+      "salary": {
+        "basic": 15000,
+        "allowances": 5000,
+        "currency": "INR"
+      }
+    },
+    {
+      "id": "EMP004",
+      "name": "Sneha Reddy",
+      "role": "React Developer",
+      "department": "Engineering",
+      "joining_date": "2023-11-20",
+      "active": true,
+      "skills": ["React", "JavaScript", "Node.js", "MySQL"],
+      "salary": {
+        "basic": 20000,
+        "allowances": 4000,
+        "currency": "INR"
+      }
+    },
+    {
+      "id": "EMP005",
+      "name": "Kiran Babu",
+      "role": "Flutter Developer",
+      "department": "Engineering",
+      "joining_date": "2023-09-05",
+      "active": true,
+      "skills": ["Flutter", "REST API", "GetX", "Firebase"],
+      "salary": {
+        "basic": 22000,
+        "allowances": 4500,
+        "currency": "INR"
+      }
+    }
+  ],
+
+  "projects": [
+    {
+      "project_id": "PRJ001",
+      "name": "College 2 Connect (C2C)",
+      "platform": "Bhavanam's App",
+      "status": "in_progress",
+      "tech_stack": ["Flutter", "React", "Node.js", "MySQL"],
+      "team_ids": ["EMP001", "EMP004", "EMP005"],
+      "features": [
+        {
+          "feature_id": "F001",
+          "name": "College Registration",
+          "completed": true,
+          "priority": "high"
+        },
+        {
+          "feature_id": "F002",
+          "name": "Faculty Verification",
+          "completed": false,
+          "priority": "high"
+        },
+        {
+          "feature_id": "F003",
+          "name": "Workshop Access",
+          "completed": false,
+          "priority": "medium"
+        },
+        {
+          "feature_id": "F004",
+          "name": "Activity Reporting",
+          "completed": false,
+          "priority": "low"
+        }
+      ],
+      "budget": {
+        "allocated": 500000,
+        "spent": 180000,
+        "currency": "INR"
+      }
+    },
+    {
+      "project_id": "PRJ002",
+      "name": "Telangana Air Quality Dashboard",
+      "platform": "AEC Career Hub",
+      "status": "completed",
+      "tech_stack": ["React", "D3.js", "Python"],
+      "team_ids": ["EMP002", "EMP004"],
+      "features": [
+        {
+          "feature_id": "F005",
+          "name": "AQI Map View",
+          "completed": true,
+          "priority": "high"
+        },
+        {
+          "feature_id": "F006",
+          "name": "Branding Assets",
+          "completed": true,
+          "priority": "medium"
+        }
+      ],
+      "budget": {
+        "allocated": 200000,
+        "spent": 200000,
+        "currency": "INR"
+      }
+    }
+  ],
+
+  "college_partners": [
+    {
+      "college_id": "CLG001",
+      "name": "Osmania University",
+      "city": "Hyderabad",
+      "verified": true,
+      "enrolled_students": 320,
+      "departments": ["CSE", "ECE", "Civil", "Mechanical"]
+    },
+    {
+      "college_id": "CLG002",
+      "name": "JNTU Hyderabad",
+      "city": "Hyderabad",
+      "verified": true,
+      "enrolled_students": 540,
+      "departments": ["CSE", "IT", "EEE"]
+    },
+    {
+      "college_id": "CLG003",
+      "name": "VNR VJIET",
+      "city": "Hyderabad",
+      "verified": false,
+      "enrolled_students": 0,
+      "departments": ["CSE", "ECE", "MBA"]
+    }
+  ],
+
+  "api_endpoints": [
+    {
+      "endpoint_id": "API001",
+      "route": "/api/college/register",
+      "method": "POST",
+      "auth_required": false,
+      "description": "Register a new college"
+    },
+    {
+      "endpoint_id": "API002",
+      "route": "/api/college/verify",
+      "method": "PATCH",
+      "auth_required": true,
+      "description": "Admin verifies a college"
+    },
+    {
+      "endpoint_id": "API003",
+      "route": "/api/student/enroll",
+      "method": "POST",
+      "auth_required": true,
+      "description": "Student enrolls via college code"
+    },
+    {
+      "endpoint_id": "API004",
+      "route": "/api/workshop/list",
+      "method": "GET",
+      "auth_required": false,
+      "description": "Get all available workshops"
+    },
+    {
+      "endpoint_id": "API005",
+      "route": "/api/activity/report",
+      "method": "POST",
+      "auth_required": true,
+      "description": "Submit activity report"
+    }
+  ]
+}
