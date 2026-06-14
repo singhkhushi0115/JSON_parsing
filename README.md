@@ -47,6 +47,15 @@ The program:
 4. Generates `output_data.json` using `json.dump()`.
 5. Generates a JSON string using `json.dumps()`.
 
+## Skills Demonstrated
+
+- Python Programming
+- JSON Parsing
+- File Handling
+- Data Processing
+- Exception Handling
+- Git & GitHub
+
 ## Author
 
 Khushi Singh
