@@ -5,17 +5,10 @@
     "Q4": "Company active status: True",
     "Q5": "Ravi Kumar works as a Software Developer Intern in the Engineering department.",
     "Q6": "First skill for Sneha Reddy is React",
-    "Q7": "The status of the Telangana Air Quality Dashboard project is completed",
-    "Q8": "The company's website URL is https://bhavanamsc2c.com",
     "Q9": "Active employees: Ravi Kumar, Priya Sharma, Sneha Reddy, Kiran Babu",
     "Q10": "Kiran Babu's total salary is ₹26500",
-    "Q11": "Features not yet completed: Faculty Verification, Workshop Access, Activity Reporting",
-    "Q12": "API endpoints that do not require authentication: /api/college/register, /api/workshop/list",
-    "Q13": "Verified partners: Osmania University, JNTU Hyderabad. Unverified partners: VNR VJIET.",
     "Q14": "Name: Arjun Mehta, Status: False, Department: Sales",
     "Q15": "Employees with Flutter skills: Ravi Kumar, Kiran Babu",
-    "Q16": "Team members for C2C project: Ravi Kumar, Sneha Reddy, Kiran Babu",
-    "Q17": "Total allocated budget: 700000, Total spent budget: 380000, Remaining budget: 320000",
     "Q18": {
         "Engineering": [
             "Ravi Kumar",
@@ -30,19 +23,19 @@
         ]
     },
     "Q19": [
-        "Canva",
-        "GetX",
-        "Lead Generation",
-        "Node.js",
-        "JavaScript",
-        "REST API",
-        "Cold Calling",
-        "CRM",
-        "Firebase",
-        "Illustrator",
-        "Flutter",
         "Figma",
+        "Canva",
+        "CRM",
+        "REST API",
+        "GetX",
+        "Node.js",
+        "Cold Calling",
+        "Flutter",
+        "Illustrator",
+        "Lead Generation",
+        "JavaScript",
         "MySQL",
+        "Firebase",
         "Dart",
         "React"
     ],
@@ -52,5 +45,12 @@
         "Arjun Mehta: ₹20000",
         "Ravi Kumar: ₹15000",
         "Priya Sharma: ₹12000"
-    ]
+    ],
+    "Q7": "The status of the Telangana Air Quality Dashboard project is completed",
+    "Q11": "Features not yet completed: Faculty Verification, Workshop Access, Activity Reporting",
+    "Q16": "Team members for C2C project: Ravi Kumar, Sneha Reddy, Kiran Babu",
+    "Q17": "Total allocated budget: 700000, Total spent budget: 380000, Remaining budget: 320000",
+    "Q8": "The company's website URL is https://bhavanamsc2c.com",
+    "Q12": "API endpoints that do not require authentication: /api/college/register, /api/workshop/list",
+    "Q13": "Verified partners: Osmania University, JNTU Hyderabad. Unverified partners: VNR VJIET."
 }
